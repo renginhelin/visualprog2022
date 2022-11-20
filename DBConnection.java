@@ -1,4 +1,4 @@
-package mysqlödev;
+package mysqlÃ¶dev;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -10,7 +10,7 @@ import java.sql.Statement;
 public class DBConnection {
 	
 	public Connection getConnected() throws SQLException {
-		Connection con = DriverManager.getConnection("jdbc:mysql://localhost/hospital","root","16052001");
+		Connection con = DriverManager.getConnection("jdbc:mysql://localhost/hospital","root","1234");
 		return con;
 	}
 	
